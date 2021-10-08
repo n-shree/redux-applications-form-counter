@@ -1,0 +1,81 @@
+.app{
+    display: flexbox;
+    
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+.counter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 6rem;
+    width: 100vw;
+}
+.counterBox{
+   margin-top: 0.5rem;
+   background-color: rgb(211, 235, 168);
+   height: 3rem;
+   width: 6rem;
+   padding-top: 0.4rem;
+   margin-right: 1rem;
+   border: 2px solid rgb(19, 18, 18);
+   font-size: 2rem;
+   font-weight: bold;
+}
+.counterButton{
+    background-color: rgb(248, 182, 219);
+    margin-right: 1rem;
+    margin-top: 5px;
+    height: 4rem;
+    width: 6rem;
+    font-size: 3rem;
+    border: 2px solid rgb(19, 18, 18); 
+}
+.message-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+    width:96vw;
+    height: 60vh;
+    margin: 1rem 1rem;
+    overflow: scroll;
+}
+.form{
+    background-color: rgb(44, 129, 129);
+}
+.card-container{
+    background-color: rgb(109, 172, 130);
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 1rem;
+}
+.card{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 20vh;
+    width:22vw;
+    padding: 0px 5px;
+    background-color: rgb(250, 232, 232);
+    font-size: 1rem;
+    border-radius: 25px;
+    margin: 1rem -1rem 0rem 1rem ;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.video-container{
+background-color: rgb(0, 0, 0);
+padding: 0rem -1rem 0rem 0rem;
+margin: 0rem 4rem; 
+}
+.video-container h1{
+    color: rgb(243, 237, 237);
+}
+
+.video{
+    width: 32rem;
+    height: 18rem;
+    margin: -1rem 1rem 1rem 1rem;
+}
