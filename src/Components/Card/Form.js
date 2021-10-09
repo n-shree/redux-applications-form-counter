@@ -41,7 +41,6 @@ function Form() {
   </p>
   <p>
     <button type="submit" onClick={()=>dispatch(updateData({fullName,city,food,game}))}>Submit</button>
-    <button type="reset">Reset form</button>
   </p>
 </form>
 </div>

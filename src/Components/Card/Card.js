@@ -7,7 +7,7 @@ function Card() {
         <div className="card-container">
      {
          cardState.map(el=>{
-             if(el.data.fullName && el.data.city && el.data.food && el.data.game !="")
+             if(el.data.fullName && el.data.city && el.data.food && el.data.game !=="")
              return(
         <div className="card">
             <p>Hii... I'm {el.data.fullName}, based out of {el.data.city}... {el.data.food} is my favourite food...and i love playing {el.data.game}..</p>
